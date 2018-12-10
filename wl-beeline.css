@@ -99,17 +99,19 @@
     box-shadow: 0 3px 0 0 #EBB16F, 0 4px 0 0 #D99A59, 0 4px 8px 0 rgba(102,55,0,.4);
     margin-bottom: 4px;
     padding: 0 20px;
+    transition: box-shadow .1s,transform .1s,-webkit-box-shadow .1s,-webkit-transform .1s;
 }
 
 .form-login .btn-lg:hover,
 .form-registration .btn-lg:hover {
-    color: #000;
+    color: #000 !important;
     background: #FAD485 !important;
 }
 
 .form-login .btn-lg:active,
 .form-registration .btn-lg:active {
-    color: #000;
+    color: #000 !important;
     background: #FAD485 !important;
     outline: none;
+    box-shadow: 0 0 0 0 #EBB16F, 0 0 0 0 #D99A59, 0 0 0 0 rgba(102,55,0,.4);
 }
