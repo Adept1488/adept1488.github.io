@@ -92,8 +92,8 @@
     font: inherit;
     height: 37px;
     border: none;
-    outline: none;
     border-radius: 19px;
+    outline: none;
     color: #000 !important;
     background: linear-gradient(#f6c164,#f6c164 60%,#fdcf70) !important;
     box-shadow: 0 3px 0 0 #EBB16F, 0 4px 0 0 #D99A59, 0 4px 8px 0 rgba(102,55,0,.4);
@@ -101,7 +101,15 @@
     padding: 0 20px;
 }
 
-.form-login .btn-lg:hover {
+.form-login .btn-lg:hover,
+.form-registration .btn-lg:hover {
     color: #000;
     background: #FAD485 !important;
+}
+
+.form-login .btn-lg:active,
+.form-registration .btn-lg:active {
+    color: #000;
+    background: #FAD485 !important;
+    outline: none;
 }
