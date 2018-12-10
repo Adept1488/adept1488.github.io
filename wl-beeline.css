@@ -87,10 +87,12 @@
     border-bottom-color: #F49F27;
 }
 
-.form-login .btn-lg {
+.form-login .btn-lg,
+.form-registration .btn-lg {
     font: inherit;
     height: 37px;
     border: none;
+    outline: none;
     border-radius: 19px;
     color: #000 !important;
     background: linear-gradient(#f6c164,#f6c164 60%,#fdcf70) !important;
@@ -100,5 +102,6 @@
 }
 
 .form-login .btn-lg:hover {
-   background: #FAD485 !important
+    color: #000;
+    background: #FAD485 !important;
 }
