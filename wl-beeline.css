@@ -40,6 +40,12 @@
     border-bottom: none;
 }
 
+.lk-head-btn,
+.forms-tabs li a,
+.nav-bar .mobile-menu .navbar-collapse ul li a {
+    font-family: Officina Serif, Helvetica, Arial, sans-serif;
+}
+
 .forms-tabs li:hover a,
 .forms-tabs li:hover a:hover,
 .nav-bar .mobile-menu .navbar-collapse ul li a:hover,
@@ -55,10 +61,10 @@
     border: none;
     padding: 0;
     margin: 6px 20px;
-    border-bottom: 1px solid #ACA8A6;
+    border-bottom: 1px solid #F49F27;
 }
 
 .lk-head-btn:hover {
-    color: #FFCA6D;
-    border-bottom-color: #FFCA6D;
+    color: #F49F27;
+    border-bottom-color: #F49F27 !Important;
 }
