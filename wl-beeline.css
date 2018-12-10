@@ -8,6 +8,7 @@
 
 #ottSaasHeader {
     background: #FFFFFF;
+    font-family: Officina Serif, Helvetica, Arial, sans-serif;
 }
 
 #ottSaasFooter {
@@ -32,7 +33,6 @@
 }
 
 .forms-tabs li a {
-    font-family: Officina Serif, Helvetica, Arial, sans-serif;
     font-size: 17px;
     line-height: 1.2;
     letter-spacing: 0;
@@ -49,4 +49,16 @@
 
 .ottwl-header .ottwl-header__block.mobile-nav {
     order: 3;
+}
+
+.lk-head-btn {
+    border: none;
+    padding: 0;
+    margin: 6px 20px;
+    border-bottom: 1px solid #ACA8A6;
+}
+
+.lk-head-btn:hover {
+    color: #FFCA6D;
+    border-bottom-color: #FFCA6D;
 }
