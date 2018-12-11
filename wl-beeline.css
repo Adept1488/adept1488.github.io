@@ -101,7 +101,6 @@
     border-radius: 19px;
     color: #000 !important;
     vertical-align: middle;
-    height: 37px;
     min-width: 100px;
     padding: 8px 0;
     transition: -webkit-box-shadow .1s, -webkit-transform .1s;
@@ -111,6 +110,7 @@
     -webkit-box-shadow: 0 3px 0 0 #EBB16F, 0 4px 0 0 #D99A59, 0 4px 8px 0 rgba(102, 55, 0, .4);
 }
 
+.profile-container button.btn-primary,
 .profile-container .btn-lg,
 .form-login .btn-lg,
 .form-registration .btn-lg {
@@ -127,6 +127,7 @@
     box-shadow: 0 3px 0 0 #EBB16F, 0 4px 0 0 #D99A59, 0 4px 8px 0 rgba(102, 55, 0, .4);
     -webkit-box-shadow: 0 3px 0 0 #EBB16F, 0 4px 0 0 #D99A59, 0 4px 8px 0 rgba(102, 55, 0, .4);
     margin-bottom: 4px;
+    width: auto;
     height: 37px;
     padding: 0 20px;
     border: none;
@@ -135,8 +136,11 @@
     color: #000 !important;
     text-align: center;
     vertical-align: middle;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
+.profile-container button.btn-primary:hover,
 .profile-container a.btn-primary:hover,
 .profile-container .btn-lg:hover,
 .form-login .btn-lg:hover,
@@ -145,6 +149,7 @@
     background: #FAD485 !important;
 }
 
+.profile-container button.btn-primary:active,
 .profile-container a.btn-primary:active,
 .profile-container .btn-lg:active,
 .form-login .btn-lg:active,
