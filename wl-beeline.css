@@ -42,6 +42,7 @@
 
 .lk-head-btn,
 .forms-tabs li a,
+.auth-popup .nav-tabs > li a,
 .nav-bar .mobile-menu .navbar-collapse ul li a {
     font-family: Officina Serif, Helvetica, Arial, sans-serif;
 }
@@ -125,4 +126,45 @@
     -ms-transform: translateY(2px);
     box-shadow: 0 1px 0 0 #EBB16F,0 2px 0 0 #D99A59,0 2px 4px 0 rgba(102,55,0,.4);
     -webkit-box-shadow: 0 1px 0 0 #EBB16F,0 2px 0 0 #D99A59,0 2px 4px 0 rgba(102,55,0,.4);
+}
+
+.auth-popup .nav-tabs {
+    width: 100%;
+}
+
+.auth-popup .nav-tabs > li {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 39px;
+    line-height: 39px;
+    max-width: 220px;
+    min-width: 130px;
+    padding: 0 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F6F6F6), color-stop(60%, #F6F6F6), to(#FCFCFC));
+    background: linear-gradient(#F6F6F6, #F6F6F6 60%, #FCFCFC);
+    box-shadow: 0 3px 0 0 #DEDEDE, 0 4px 0 0 #BFBFBF, 0 4px 6px 0 rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 3px 0 0 #DEDEDE, 0 4px 0 0 #BFBFBF, 0 4px 6px 0 rgba(0,0,0,.5);
+}
+
+.auth-popup .nav-tabs > li:first-child {
+    margin-left: 3px;
+    border-radius: 19px 0 0 19px;
+}
+
+.auth-popup .nav-tabs > li:last-child {
+    margin-right: 3px;
+    border-radius: 0 19px 19px 0;
+}
+
+.auth-popup .nav-tabs > li a {
+    background: transparent;
+    border: none;
+    height: 0;
+    line-height: 0;
 }
