@@ -129,7 +129,9 @@
 }
 
 .auth-popup .nav-tabs {
-    width: 60% !important;
+    width: 100% !important;
+    display: inline-flex;
+    justify-content: center;
 }
 
 .auth-popup .nav-tabs > li {
@@ -164,6 +166,7 @@
 }
 
 .auth-popup .nav-tabs > li.active {
+    cursor: default;
     background: #FBCE5D;
     transform: translateY(2px);
     -webkit-transform: translateY(2px);
@@ -179,6 +182,10 @@
     border: none !important;
     height: 39px !important;
     line-height: 39px !important;
+}
+
+.auth-popup .nav-tabs > li.active a {
+    cursor: default;
 }
 
 .auth-popup .nav-tabs > li.active a:after {
