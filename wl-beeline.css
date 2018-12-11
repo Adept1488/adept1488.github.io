@@ -192,6 +192,18 @@ div.bonuses .btn-group label,
     -webkit-box-shadow: 0 3px 0 0 #DEDEDE, 0 4px 0 0 #BFBFBF, 0 4px 6px 0 rgba(0, 0, 0, .5);
 }
 
+div.bonuses .btn-group label {
+    margin-left: 0;
+}
+
+div.bonuses .btn-group label:hover {
+    z-index: 0;
+}
+
+div.bonuses .btn-group label.active {
+    z-index: 0;
+}
+
 div.bonuses .btn-group label:first-child,
 .auth-popup .nav-tabs > li:first-child {
     margin-left: 3px;
@@ -243,5 +255,41 @@ div.bonuses .btn-group label.active,
 }
 
 div.bonuses .btn-group label {
+    font-family: Officina Serif, Helvetica, Arial, sans-serif;
     border: none;
+}
+
+div.content-wrap {
+    border-radius: 5px;
+}
+
+div.content-wrap a {
+    font-family: Officina Serif, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #959595 !important;
+}
+
+div.nav-bar .nav-bar-table a:hover {
+    color: #F49F27 !important;
+    cursor: pointer;
+}
+
+div.nav-bar .nav-bar-table a.active {
+    color: #494949 !important;
+    cursor: default;
+    border: none !important;
+}
+
+div.nav-bar .nav-bar-table td {
+    border-left: none;
+}
+
+div.nav-bar .nav-bar-table td:first-child,
+div.nav-bar .nav-bar-table td:first-child a {
+    border-top-left-radius: 5px;
+}
+
+div.nav-bar .nav-bar-table td:last-child,
+div.nav-bar .nav-bar-table td:last-child a {
+    border-top-right-radius: 5px;
 }
