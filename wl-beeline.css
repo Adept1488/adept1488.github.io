@@ -88,6 +88,7 @@
     border-bottom-color: #F49F27;
 }
 
+.profile-container .btn-lg,
 .form-login .btn-lg,
 .form-registration .btn-lg {
     position: relative;
@@ -110,12 +111,14 @@
     vertical-align: middle;
 }
 
+.profile-container .btn-lg:hover,
 .form-login .btn-lg:hover,
 .form-registration .btn-lg:hover {
     color: #000 !important;
     background: #FAD485 !important;
 }
 
+.profile-container .btn-lg:active,
 .form-login .btn-lg:active,
 .form-registration .btn-lg:active {
     color: #000 !important;
@@ -190,4 +193,8 @@
 
 .auth-popup .nav-tabs > li.active a:after {
     content: none !important;
+}
+
+.ottwl-header .balance-in-head {
+    padding: 0 20px 0;
 }
