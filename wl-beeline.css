@@ -128,6 +128,10 @@
     -webkit-box-shadow: 0 1px 0 0 #EBB16F,0 2px 0 0 #D99A59,0 2px 4px 0 rgba(102, 55, 0, .4);
 }
 
+.auth-popup .nav-tabs {
+    width: 60% !important;
+}
+
 .auth-popup .nav-tabs > li {
     position: relative;
     display: inline-block;
@@ -159,8 +163,18 @@
     border-radius: 0 19px 19px 0;
 }
 
+.auth-popup .nav-tabs > li.active {
+    background: #FBCE5D;
+    transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    -ms-transform: translateY(2px);
+    box-shadow: 0 1px 0 0 #EBB16F, 0 2px 0 0 #D99A59, 0 2px 4px 0 rgba(102, 55, 0, .4);
+    -webkit-box-shadow: 0 1px 0 0 #EBB16F, 0 2px 0 0 #D99A59, 0 2px 4px 0 rgba(102, 55, 0, .4);
+}
+
 .auth-popup .nav-tabs > li a {
     font-family: Officina Serif, Helvetica, Arial, sans-serif !important;
+    font-size: 17px !important;
     background: transparent !important;
     border: none !important;
     height: 39px !important;
