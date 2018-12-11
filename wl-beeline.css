@@ -88,9 +88,35 @@
     border-bottom-color: #F49F27;
 }
 
+.profile-container a.btn-primary {
+    font-family: Officina Serif, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    position: relative;
+    display: inline-block;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F6C164), color-stop(60%, #F6C164), to(#FDCF70)) !important;
+    background: linear-gradient(#F6C164, #F6C164 60%, #FDCF70) !important;
+    margin-bottom: 4px;
+    border: none;
+    border-radius: 19px;
+    color: #000 !important;
+    vertical-align: middle;
+    height: 37px;
+    min-width: 100px;
+    padding: 8px 0;
+    transition: -webkit-box-shadow .1s, -webkit-transform .1s;
+    transition: box-shadow .1s, transform .1s;
+    -webkit-transition: -webkit-box-shadow .1s, -webkit-transform .1s;
+    box-shadow: 0 3px 0 0 #EBB16F, 0 4px 0 0 #D99A59, 0 4px 8px 0 rgba(102, 55, 0, .4);
+    -webkit-box-shadow: 0 3px 0 0 #EBB16F, 0 4px 0 0 #D99A59, 0 4px 8px 0 rgba(102, 55, 0, .4);
+}
+
 .profile-container .btn-lg,
 .form-login .btn-lg,
 .form-registration .btn-lg {
+    font-family: Officina Serif, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 37px;
     position: relative;
     display: inline-block;
     background: -webkit-gradient(linear, left top, left bottom, from(#F6C164), color-stop(60%, #F6C164), to(#FDCF70)) !important;
@@ -98,8 +124,8 @@
     transition: -webkit-box-shadow .1s, -webkit-transform .1s;
     transition: box-shadow .1s, transform .1s;
     -webkit-transition: -webkit-box-shadow .1s, -webkit-transform .1s;
-    -webkit-box-shadow: 0 3px 0 0 #EBB16F, 0 4px 0 0 #D99A59, 0 4px 8px 0 rgba(102, 55, 0, .4);
     box-shadow: 0 3px 0 0 #EBB16F, 0 4px 0 0 #D99A59, 0 4px 8px 0 rgba(102, 55, 0, .4);
+    -webkit-box-shadow: 0 3px 0 0 #EBB16F, 0 4px 0 0 #D99A59, 0 4px 8px 0 rgba(102, 55, 0, .4);
     margin-bottom: 4px;
     height: 37px;
     padding: 0 20px;
@@ -111,6 +137,7 @@
     vertical-align: middle;
 }
 
+.profile-container a.btn-primary:hover,
 .profile-container .btn-lg:hover,
 .form-login .btn-lg:hover,
 .form-registration .btn-lg:hover {
@@ -118,6 +145,7 @@
     background: #FAD485 !important;
 }
 
+.profile-container a.btn-primary:active,
 .profile-container .btn-lg:active,
 .form-login .btn-lg:active,
 .form-registration .btn-lg:active {
