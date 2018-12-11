@@ -131,7 +131,6 @@
 .auth-popup .nav-tabs > li {
     position: relative;
     display: inline-block;
-    float: none !important;
     width: auto !important;
     vertical-align: top;
     height: 39px;
@@ -166,4 +165,8 @@
     border: none !important;
     height: 39px !important;
     line-height: 39px !important;
+}
+
+.auth-popup .nav-tabs > li.active a:after {
+    content: none !important;
 }
