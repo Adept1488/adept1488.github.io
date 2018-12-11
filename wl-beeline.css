@@ -163,8 +163,8 @@
 }
 
 .auth-popup .nav-tabs > li a {
-    background: transparent;
-    border: none;
-    height: 0;
-    line-height: 0;
+    background: transparent !important;
+    border: none !important;
+    height: 0 !important;
+    line-height: 0 !important;
 }
