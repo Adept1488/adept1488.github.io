@@ -23,16 +23,16 @@
     margin: 3px 0;
 }
 
-.forms-tabs li {
+.ottwl-header .forms-tabs li {
     padding: 0;
     margin: 0 25px 0 0;
 }
 
-.forms-tabs li:first-child {
+.ottwl-header .forms-tabs li:first-child {
     margin: 0 25px;
 }
 
-.forms-tabs li a {
+.ottwl-header .forms-tabs li a {
     font-size: 17px;
     line-height: 1.2;
     letter-spacing: 0;
@@ -41,14 +41,14 @@
 }
 
 .lk-head-btn,
-.forms-tabs li a,
+.ottwl-header .forms-tabs li a,
 .auth-popup .nav-tabs > li a,
 .nav-bar .mobile-menu .navbar-collapse ul li a {
     font-family: Officina Serif, Helvetica, Arial, sans-serif;
 }
 
-.forms-tabs li:hover a,
-.forms-tabs li:hover a:hover,
+.ottwl-header .forms-tabs li:hover a,
+.ottwl-header .forms-tabs li:hover a:hover,
 .nav-bar .mobile-menu .navbar-collapse ul li a:hover,
 .nav-bar .mobile-menu .navbar-collapse ul li a:focus {
     color: #F49F27 !important;
