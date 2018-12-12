@@ -334,7 +334,6 @@ div.nav-bar .nav-bar-table td:first-child a {
 
 div.nav-bar .nav-bar-table td:first-child a:not(.active) {
     border-left: 1px solid rgb(221, 216, 213);
-    border-top-left-radius: 5px;
 }
 
 div.nav-bar .nav-bar-table td:last-child,
@@ -344,5 +343,4 @@ div.nav-bar .nav-bar-table td:last-child a {
 
 div.nav-bar .nav-bar-table td:last-child a:not(.active) {
     border-right: 1px solid rgb(221, 216, 213);
-    border-top-left-radius: 5px;
 }
