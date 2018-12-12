@@ -31,6 +31,12 @@
     -webkit-box-shadow: inset 5px 15px 10px -5px rgba(0, 0, 0, .3);
 }
 
+.bonuses form[name='bonusesForm'] .btn-group {
+    display: block;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
 .ottwl-header {
     padding: 0 0;
 }
