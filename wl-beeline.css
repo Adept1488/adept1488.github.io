@@ -81,6 +81,10 @@
     background-color: #FBCE5D !important;
 }
 
+.nav-bar .mobile-menu .navbar-collapse ul li.active a:hover {
+    color: #333333 !important;
+}
+
 .nav-bar .mobile-menu button.btn-primary {
     color: #333333 !important;
     background: none !important;
