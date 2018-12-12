@@ -13,6 +13,12 @@
     }
 }
 
+@media (max-width: 768px) {
+    .basic-info .basic-info-block .table-responsive .table {
+        max-width: none;
+    }
+}
+
 #ottSaasHeader {
     background: #FFFFFF;
     font-family: Officina Serif, Helvetica, Arial, sans-serif;
@@ -63,6 +69,11 @@
 
 .ottwl-header .ottwl-header__block.mobile-nav {
     order: 3;
+}
+
+.mobile-menu .dropdown-menu li.main-menu-item.active a {
+    color: #333333 !important;
+    background-color: #FBCE5D !important;
 }
 
 .lk-head-btn {
