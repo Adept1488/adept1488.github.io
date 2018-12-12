@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 @media (min-width: 768px) and (max-width: 998px) {
     .nav-bar .nav-bar-table tr td a {
         font-size: 14px !important;
@@ -10,3 +12,53 @@
         max-width: none;
     }
 }
+
+.ottwl-header .forms-tabs li a { /** todo: Если шрифт нужен всем, то повешай на body? **/
+    font-family: 'Roboto', sans-serif;
+}
+
+/**
+ * Custom header styles begin
+ */
+#ottSaasHeader {
+    padding: 25px 0;
+}
+
+.ottwl-header {
+    padding: 0 0;
+    justify-content: flex-start;
+}
+
+div.ottwl-header__block:last-child {
+    margin-left: auto;
+}
+
+.logo-block img {
+    margin: 3px 0;
+}
+
+.ottwl-header .forms-tabs li {
+    padding: 0;
+    margin: 0 25px 0 0;
+}
+
+.ottwl-header .forms-tabs li:first-child {
+    margin: 0 25px;
+}
+
+.ottwl-header .forms-tabs li a {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+.ottwl-header .forms-tabs li:hover a,
+.ottwl-header .forms-tabs li:hover a:hover {
+    color: #FFF !important;
+}
+/**
+ * Custom header styles end
+ */
