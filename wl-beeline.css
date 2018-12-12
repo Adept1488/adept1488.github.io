@@ -267,7 +267,10 @@ div.bonuses .btn-group label {
 }
 
 div.content-wrap {
+    box-shadow: none;
+    border: 1px solid rgb(221, 216, 213);
     border-radius: 5px;
+    border-top: none;
 }
 
 div.content-wrap a {
@@ -277,8 +280,19 @@ div.content-wrap a {
     color: #959595 !important;
 }
 
+div.nav-bar .nav-bar-table td {
+    border: none;
+}
+
 div.nav-bar .nav-bar-table a {
     position: relative;
+    border-top: 1px solid rgb(221, 216, 213);
+    border-bottom: 2px solid #E9E9E9;
+}
+
+div.nav-bar .nav-bar-table a:focus {
+    text-decoration: none;
+    outline: none;
 }
 
 div.nav-bar .nav-bar-table a:hover {
@@ -289,26 +303,22 @@ div.nav-bar .nav-bar-table a:hover {
 
 div.nav-bar .nav-bar-table a.active {
     color: #494949 !important;
-    cursor: default;
     border: none !important;
+    cursor: default;
 }
 
 div.nav-bar .nav-bar-table a.active:after {
     content: '';
     display: block;
     position: absolute;
-    top: -3px;
+    top: -5px;
     bottom: 0;
-    left: -3px;
+    left: 0;
     right: 0;
+    border: 2px solid #FFCA6D;
     border-radius: 5px;
-    border: 2px solid #ffca6d;
-    width: calc(100% + 3px);
-    height: calc(100% + 6px);
-}
-
-div.nav-bar .nav-bar-table td {
-    border-left: none;
+    width: 100%;
+    height: calc(100% + 10px);
 }
 
 div.nav-bar .nav-bar-table td:first-child,
