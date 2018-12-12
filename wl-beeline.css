@@ -6,6 +6,13 @@
     src: url('./fonts/officina-serif-book.woff2') format('woff2'), url('./fonts/officina-serif-book.woff') format('woff'), url('./fonts/officina-serif-book.ttf') format('truetype');
 }
 
+@media (min-width: 768px) and (max-width: 998px) {
+    .nav-bar .nav-bar-table tr td a {
+        font-size: 14px !important;
+        font-weight: normal !important;
+    }
+}
+
 #ottSaasHeader {
     background: #FFFFFF;
     font-family: Officina Serif, Helvetica, Arial, sans-serif;
@@ -272,6 +279,7 @@ div.content-wrap a {
 
 div.nav-bar .nav-bar-table a:hover {
     color: #F49F27 !important;
+    text-decoration: none;
     cursor: pointer;
 }
 
