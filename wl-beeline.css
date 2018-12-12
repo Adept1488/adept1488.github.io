@@ -25,7 +25,7 @@
 }
 
 #ottSaasFooter {
-    background: #282828 url(https://adept1488.github.io/images/beeline-footer-bg.png);
+    background: #282828 url('./images/beeline-footer-bg.png');
     padding-top: 20px;
     box-shadow: inset 5px 15px 10px -5px rgba(0, 0, 0, .3);
     -webkit-box-shadow: inset 5px 15px 10px -5px rgba(0, 0, 0, .3);
