@@ -29,6 +29,21 @@
     padding: 20px 10px;
 }
 
+#ottSaasFooter a {
+    color: #666666;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+#ottSaasFooter a:hover,
+#ottSaasFooter a:link,
+#ottSaasFooter a:active {
+    text-decoration: none;
+}
+
 /**
  * Custom header styles begin
  */
