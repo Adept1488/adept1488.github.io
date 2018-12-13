@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-@media (min-width: 768px) and (max-width: 998px) { /* проверь, мб это не надо? */
+@media (min-width: 768px) and (max-width: 998px) {
     .nav-bar .nav-bar-table tr td a {
         font-size: 14px !important;
         font-weight: normal !important;
@@ -130,4 +130,24 @@ nav.mobile-menu-open .mobile-menu .dropdown-menu li > a {
 }
 /**
  * Custom header styles end
+ */
+
+/**
+ * Custom profile styles begin
+ */
+.nav-bar .mobile-menu button.btn-primary {
+    border-color: #D2CECE !important;
+    background: none !important;
+    outline: none;
+}
+
+.nav-bar .mobile-menu button.btn-primary .icon-bar {
+    background-color: #887F92;
+}
+
+.nav-bar .mobile-menu .navbar-collapse ul li a {
+    font-weight: normal;
+}
+/**
+ * Custom profile styles end
  */
