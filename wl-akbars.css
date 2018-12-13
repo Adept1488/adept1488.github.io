@@ -75,7 +75,13 @@ nav.mobile-menu-open {
     background: rgba(16,0,43,.9);
 }
 
+nav.mobile-menu-open .mobile-menu .dropdown-menu li,
 nav.mobile-menu-open .mobile-menu .dropdown-menu li > a {
+    color: #FFFFFF;
+}
+
+nav.mobile-menu-open .mobile-menu .dropdown-menu li > a:hover {
+    background-color: transparent;
     color: #FFFFFF;
 }
 
