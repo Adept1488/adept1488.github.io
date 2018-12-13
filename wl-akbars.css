@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-@media (min-width: 768px) and (max-width: 998px) {
+@media (min-width: 768px) and (max-width: 998px) { /* проверь, мб это не надо? */
     .nav-bar .nav-bar-table tr td a {
         font-size: 14px !important;
         font-weight: normal !important;
@@ -13,6 +13,13 @@
     }
 }
 
+@media (min-width: 992px) {
+    div.ottwl-header__block:last-child {
+        margin-left: auto;
+    }
+}
+
+.lk-head-btn,
 .ottwl-header .forms-tabs li a { /** todo: Если шрифт нужен всем, то повешай на body? **/
     font-family: 'Roboto', sans-serif;
 }
@@ -26,13 +33,6 @@
     justify-content: center;
 }
 
-@media (min-width: 992px) {
-    div.ottwl-header__block:last-child {
-        margin-left: auto;
-    }
-
-}
-
 .ottwl-header .ottwl-header__block.mobile-nav {
     order: 1;
 }
@@ -41,8 +41,29 @@
     order: 3;
 }
 
+.ottwl-header .ottwl-header__block.mobile-nav .mobile-menu.dropdown a {
+    border: 1px solid #2d2140;
+    padding: 5px 10px;
+    line-height: 9px;
+    font-size: 16px;
+    fill: #887f92;
+}
+
 .logo-block img {
-    margin: 3px 0;
+    margin: 3px 25px 3px 0;
+}
+
+.lk-head-btn {
+    color: #00b2a9;
+    border: none;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0;
+    font-size: 16px;
+}
+
+.lk-head-btn:hover {
+    color: #00b2a9;
 }
 
 .ottwl-header .forms-tabs li {
