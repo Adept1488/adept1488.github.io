@@ -13,8 +13,7 @@
     }
 }
 
-.lk-head-btn,
-.ottwl-header .forms-tabs li a { /** todo: Если шрифт нужен всем, то повешай на body? **/
+#ottSaasHeader {
     font-family: 'Roboto', sans-serif;
 }
 
