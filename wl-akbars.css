@@ -13,8 +13,9 @@
     }
 }
 
-#ottSaasHeader {
+#ottSaasHeader, #ottSaasFooter {
     font-family: 'Roboto', sans-serif;
+    background: #10002B;
 }
 
 /**
