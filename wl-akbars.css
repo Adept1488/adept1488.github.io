@@ -41,6 +41,18 @@
     fill: inherit;
 }
 
+nav.mobile-menu-open {
+    background: inherit;
+}
+
+.ottwl-header .ottwl-header__block.mobile-nav .mobile-menu .dropdown-menu {
+    background: rgba(16,0,43,.9);
+}
+
+nav.mobile-menu-open .mobile-menu .dropdown-menu li > a {
+    color: #FFFFFF;
+}
+
 .ottwl-header .ottwl-header__block.mobile-nav .mobile-menu.dropdown a.dropdown-toggle {
     border: 1px solid #2D2140;
     padding: 5px 10px;
