@@ -181,7 +181,7 @@ nav.mobile-menu-open .mobile-menu .dropdown-menu li > a {
 /**
  * Custom labels start
  */
-/*.ngdialog.auth-popup label[for="auth_login"],
+.ngdialog.auth-popup label[for="auth_login"],
 .ngdialog.auth-popup label[for="register_login"] {
     font-size: 0;
     letter-spacing: -1px;
@@ -192,11 +192,11 @@ nav.mobile-menu-open .mobile-menu .dropdown-menu li > a {
 .ngdialog.auth-popup label[for="auth_login"]:before,
 .ngdialog.auth-popup label[for="register_login"]:before {
     display: block;
-    content: '\041D\043E\043C\0435\0440\00a0\0442\0435\043B\0435\0444\043E\043D\0430';
+    content: '\041D\043E\043C\0435\0440\00a0\043C\043E\0431\0438\043B\044C\043D\043E\0433\043E\00a0\0442\0435\043B\0435\0444\043E\043D\0430';
     letter-spacing: normal;
     font-size: 16px;
     color: #444;
-}*/
+}
 /**
  * Custom labels end
  */
