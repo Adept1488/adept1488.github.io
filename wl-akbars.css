@@ -72,12 +72,14 @@ nav.mobile-menu-open .mobile-menu .dropdown-menu li > a {
     fill: #887F92;
 }
 
-.ottwl-header .ottwl-header__block .ottwl-header__auth-dialog-btn {
+.ottwl-header .ottwl-header__block .ottwl-header__auth-dialog-btn,
+.ottwl-header .ottwl-header__block .ottwl-header__logout-btn {
     padding: 0 10px !important;
     line-height: 18px;
 }
 
-.ottwl-header .ottwl-header__block .ottwl-header__auth-dialog-btn svg path {
+.ottwl-header .ottwl-header__block .ottwl-header__auth-dialog-btn svg path,
+.ottwl-header .ottwl-header__block .ottwl-header__logout-btn svg path {
     fill: #887E8F;
 }
 
