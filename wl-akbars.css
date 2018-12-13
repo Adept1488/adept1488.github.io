@@ -13,12 +13,6 @@
     }
 }
 
-@media (min-width: 992px) {
-    div.ottwl-header__block:last-child {
-        margin-left: auto;
-    }
-}
-
 .lk-head-btn,
 .ottwl-header .forms-tabs li a { /** todo: Если шрифт нужен всем, то повешай на body? **/
     font-family: 'Roboto', sans-serif;
@@ -30,7 +24,7 @@
 .ottwl-header {
     height: 80px;
     padding: 0 0;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .ottwl-header .ottwl-header__block.mobile-nav {
@@ -38,15 +32,41 @@
 }
 
 .ottwl-header .ottwl-header__block:last-child {
+    margin-left: auto;
     order: 3;
 }
 
-.ottwl-header .ottwl-header__block.mobile-nav .mobile-menu.dropdown a {
-    border: 1px solid #2d2140;
+.ottwl-header .ottwl-header__block.mobile-nav .mobile-menu .icons-btn:hover svg {
+    color: inherit;
+    fill: inherit;
+}
+
+.ottwl-header .ottwl-header__block.mobile-nav .mobile-menu.dropdown a.dropdown-toggle {
+    border: 1px solid #2D2140;
     padding: 5px 10px;
     line-height: 9px;
     font-size: 16px;
-    fill: #887f92;
+    color: #887F92;
+    fill: #887F92;
+}
+
+.ottwl-header .ottwl-header__block.mobile-nav .mobile-menu.dropdown a.dropdown-toggle:hover {
+    color: #887F92;
+    fill: #887F92;
+}
+
+.ottwl-header .ottwl-header__block.mobile-nav .mobile-menu.dropdown a.dropdown-toggle svg path + path {
+    color: #887F92;
+    fill: #887F92;
+}
+
+.ottwl-header .ottwl-header__block .ottwl-header__auth-dialog-btn {
+    padding: 0 10px !important;
+    line-height: 18px;
+}
+
+.ottwl-header .ottwl-header__block .ottwl-header__auth-dialog-btn svg path {
+    fill: #887E8F;
 }
 
 .logo-block img {
@@ -60,10 +80,16 @@
     margin: 0;
     letter-spacing: 0;
     font-size: 16px;
+    outline: none;
 }
 
 .lk-head-btn:hover {
     color: #00b2a9;
+}
+
+.lk-head-btn:focus {
+    color: #00b2a9;
+    outline: none;
 }
 
 .ottwl-header .forms-tabs li {
