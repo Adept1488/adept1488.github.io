@@ -47,11 +47,11 @@
 
 .ottwl-header .forms-tabs li {
     padding: 0;
-    margin: 0 25px 0 0;
+    margin: 0 55px 0 0;
 }
 
-.ottwl-header .forms-tabs li:first-child {
-    margin: 0 25px;
+.ottwl-header .forms-tabs li:last-child {
+    margin-right: 0;
 }
 
 .ottwl-header .forms-tabs li a {
@@ -59,7 +59,6 @@
     line-height: 1.2;
     letter-spacing: 0;
     padding: 0;
-    border-bottom: none;
 }
 
 .lk-head-btn,
@@ -77,7 +76,7 @@
 }
 
 .ottwl-header .ottwl-header__block.mobile-nav {
-    order: 3;
+    order: 0;
 }
 
 .nav-bar .mobile-menu .navbar-collapse ul li a {
@@ -161,7 +160,7 @@
 .profile-container .btn-lg,
 .form-login .btn-lg,
 .form-registration .btn-lg {
-    font-family: Officina Serif, Helvetica, Arial, sans-serif;
+    font-family: Officina Serif, Helvetica, Arial, sans-serif !important;
     font-size: 17px;
     line-height: 37px;
     position: relative;
@@ -272,6 +271,10 @@ div.bonuses .btn-group label.active,
     -ms-transform: translateY(2px);
     box-shadow: 0 1px 0 0 #EBB16F, 0 2px 0 0 #D99A59, 0 2px 4px 0 rgba(102, 55, 0, .4);
     -webkit-box-shadow: 0 1px 0 0 #EBB16F, 0 2px 0 0 #D99A59, 0 2px 4px 0 rgba(102, 55, 0, .4);
+}
+
+.auth-popup .ngdialog-content {
+    font-family: Officina Serif, Helvetica, Arial, sans-serif !important;
 }
 
 .auth-popup .nav-tabs > li a {
