@@ -125,6 +125,7 @@ nav.mobile-menu-open .mobile-menu .dropdown-menu li > a:hover {
     padding: 0;
     margin: 0;
     letter-spacing: 0;
+    font-family: inherit;
     font-size: 16px;
     outline: none;
 }
@@ -149,6 +150,7 @@ nav.mobile-menu-open .mobile-menu .dropdown-menu li > a:hover {
 
 .ottwl-header .forms-tabs li a {
     color: #FFF;
+    font-family: inherit;
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 0;
@@ -162,6 +164,22 @@ nav.mobile-menu-open .mobile-menu .dropdown-menu li > a:hover {
 }
 /**
  * Custom header styles end
+ */
+
+/**
+ * Custom popup styles begin
+ */
+.reset-password-popup .ngdialog-content,
+.auth-popup .ngdialog-content {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.auth-popup .btn-lg,
+.auth-popup .nav-tabs > li a {
+    font-family: 'Roboto', sans-serif !important;
+}
+/**
+ * Custom popup styles end
  */
 
 /**
