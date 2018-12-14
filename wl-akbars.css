@@ -13,53 +13,23 @@
     }
 }
 
-#ottSaasHeader {
-    font-family: 'Roboto', sans-serif;
-    background: #10002B;
-}
-
-#ottSaasFooter {
-    color: #666666;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.6em;
-    background: #0e0027;
-    min-height: 200px;
-    padding: 35px 0;
-}
-
-#ottSaasFooter a {
-    color: #666666;
-    font-weight: 400;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-}
-
-#ottSaasFooter a:hover,
-#ottSaasFooter a:link,
-#ottSaasFooter a:active {
-    text-decoration: none;
+.btn-group-lg > .btn,
+.btn-lg {
+    border-radius: 0;
 }
 
 /**
  * Custom header styles begin
  */
+#ottSaasHeader {
+    font-family: 'Roboto', sans-serif;
+    background: #10002B;
+}
+
 .ottwl-header {
     height: 80px;
     padding: 0 0;
-    justify-content: flex-start;
-}
-
-.ottwl-header .ottwl-header__block.mobile-nav {
-    order: 1;
-}
-
-.ottwl-header .ottwl-header__block:last-child {
-    margin-left: auto;
-    order: 3;
+    justify-content: space-between;
 }
 
 .ottwl-header .ottwl-header__block.mobile-nav .mobile-menu .icons-btn:hover svg {
@@ -164,6 +134,38 @@ nav.mobile-menu-open .mobile-menu .dropdown-menu li > a:hover {
 }
 /**
  * Custom header styles end
+ */
+
+/**
+ * Custom footer styles begin
+ */
+#ottSaasFooter {
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6em;
+    background: #0e0027;
+    min-height: 200px;
+    padding: 35px 0;
+}
+
+#ottSaasFooter a {
+    color: #666666;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+#ottSaasFooter a:hover,
+#ottSaasFooter a:link,
+#ottSaasFooter a:active {
+    text-decoration: none;
+}
+/**
+ * Custom footer styles end
  */
 
 /**
