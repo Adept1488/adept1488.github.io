@@ -14,8 +14,26 @@
 }
 
 .btn-group-lg > .btn,
+.btn-primary,
+.btn-danger,
+.btn-grey,
 .btn-lg {
     border-radius: 0;
+    outline: none !important;
+}
+
+.btn-group-lg > .btn:active,
+.btn-primary:active,
+.btn-danger:active,
+.btn-grey:active,
+.btn-lg:active,
+.btn-group-lg > .btn:focus,
+.btn-primary:focus,
+.btn-danger:focus,
+.btn-grey:focus,
+.btn-lg:focus {
+    border-radius: 0;
+    outline: none !important;
 }
 
 /**
@@ -199,6 +217,29 @@ nav.mobile-menu-open .mobile-menu .dropdown-menu li > a:hover {
 
 .nav-bar .mobile-menu .navbar-collapse ul li a {
     font-weight: normal;
+}
+
+.nav-bar .nav-bar-table a {
+    text-decoration: none;
+}
+
+.cards .cards__card-form .btn-grey {
+    color: #fff !important;
+    background-color: #00b2a9 !important;
+    background-image: none !important;
+    border-color: #00b2a9 !important;
+    outline: none;
+}
+
+.cards .cards__card-form .btn-grey:hover {
+    color: #fff !important;
+    background-color: #007f79 !important;
+    border-color: #00756f !important;
+}
+
+.cards .cards__card-form .btn-grey:focus,
+.cards .cards__card-form .btn-grey:active {
+    outline: none;
 }
 /**
  * Custom profile styles end
