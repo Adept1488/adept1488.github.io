@@ -182,6 +182,10 @@ nav.mobile-menu-open .mobile-menu .dropdown-menu li > a:hover {
 #ottSaasFooter a:active {
     text-decoration: none;
 }
+
+#ottSaasFooter img.akbars-logo {
+    content: url('./images/akbars-logo.png')
+}
 /**
  * Custom footer styles end
  */
