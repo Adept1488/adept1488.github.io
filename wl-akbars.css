@@ -142,8 +142,8 @@ nav.mobile-menu-open .mobile-menu .dropdown-menu li > a:hover {
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 0;
-    padding: 0;
-    border-bottom: none;
+    padding: 0 0 2px 0;
+    border-bottom-width: 3px;
 }
 
 .ottwl-header .forms-tabs li:hover a,
@@ -185,12 +185,13 @@ nav.mobile-menu-open .mobile-menu .dropdown-menu li > a:hover {
 
 #ottSaasFooter .akbars-logo {
     display: block;
+    background: url('./images/akbars-logo.png') no-repeat;
+    background-size: contain;
+    height: 42px;
+    margin-bottom: 10px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    background: url('./images/akbars-logo.png') round;
-    height: 60px;
-    margin-bottom: 10px;
 }
 /**
  * Custom footer styles end
