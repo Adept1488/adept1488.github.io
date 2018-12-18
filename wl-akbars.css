@@ -183,9 +183,12 @@ nav.mobile-menu-open .mobile-menu .dropdown-menu li > a:hover {
     text-decoration: none;
 }
 
-#ottSaasFooter img.akbars-logo {
-    content: url('./images/akbars-logo.png');
-    width: 250px;
+#ottSaasFooter .akbars-logo {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('./images/akbars-logo.png') round;
+    height: 60px;
 }
 /**
  * Custom footer styles end
