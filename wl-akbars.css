@@ -190,6 +190,7 @@ nav.mobile-menu-open .mobile-menu .dropdown-menu li > a:hover {
     -webkit-box-sizing: border-box;
     background: url('./images/akbars-logo.png') round;
     height: 60px;
+    margin-bottom: 10px;
 }
 /**
  * Custom footer styles end
