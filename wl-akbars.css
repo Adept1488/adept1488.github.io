@@ -184,7 +184,8 @@ nav.mobile-menu-open .mobile-menu .dropdown-menu li > a:hover {
 }
 
 #ottSaasFooter img.akbars-logo {
-    content: url('./images/akbars-logo.png')
+    content: url('./images/akbars-logo.png');
+    width: 250px;
 }
 /**
  * Custom footer styles end
