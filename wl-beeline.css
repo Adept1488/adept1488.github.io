@@ -27,6 +27,7 @@
 #ottSaasFooter {
     background: #282828 url('./images/beeline-footer-bg.png');
     padding-top: 20px;
+    padding-bottom: 5px;
     box-shadow: inset 5px 15px 10px -5px rgba(0, 0, 0, .3);
     -webkit-box-shadow: inset 5px 15px 10px -5px rgba(0, 0, 0, .3);
 }
