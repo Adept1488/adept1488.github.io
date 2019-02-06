@@ -3,11 +3,9 @@
     font-weight: normal;
     font-style: normal;
     font-display: fallback;
-    src: url('./fonts/officina-serif-book.eot');
-    src: url('./fonts/officina-serif-book.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/officina-serif-book.woff2')      format('woff2'),
-         url('./fonts/officina-serif-book.woff')       format('woff'),
-         url('./fonts/officina-serif-book.ttf')        format('truetype');
+    src: url('./fonts/OfficinaSerifC-Book.woff2') format('woff2'),
+         url('./fonts/OfficinaSerifC-Book.woff')  format('woff'),
+         url('./fonts/OfficinaSerifC-Book.ttf')   format('truetype');
 }
 
 @font-face {
@@ -15,11 +13,9 @@
     font-weight: normal;
     font-style: normal;
     font-display: fallback;
-    src: url('./fonts/officina-serif-bold.eot');
-    src: url('./fonts/officina-serif-bold.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/officina-serif-bold.woff2')      format('woff2'),
-         url('./fonts/officina-serif-bold.woff')       format('woff'),
-         url('./fonts/officina-serif-bold.ttf')        format('truetype');
+    src: url('./fonts/OfficinaSerifC-Bold.woff2') format('woff2'),
+         url('./fonts/OfficinaSerifC-Bold.woff')  format('woff'),
+         url('./fonts/OfficinaSerifC-Bold.ttf')   format('truetype');
 }
 
 @media (min-width: 768px) and (max-width: 998px) {
@@ -41,7 +37,7 @@
 }
 
 #ottSaasFooter {
-    background: #282828 url('./images/beeline-footer-bg.png');
+    background: #282828 url('./beeline-footer-bg.png');
     font-family: OfficinaSerifBook, Arial, sans-serif;
     padding-top: 20px;
     padding-bottom: 5px;
