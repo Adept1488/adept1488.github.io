@@ -18,6 +18,23 @@
  * Custom header styles end
  */
 
+/**
+ * Custom footer styles begin
+ */
+#ottSaasFooter {
+    width: 100%;
+    box-shadow: 20px 0 20px 0 rgba(0, 0, 0, .08);
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+#ottSaasFooter * {
+    box-sizing: border-box;
+}
+/**
+ * Custom footer styles end
+ */
+
 [data-wl-class~="HotelsIndex__HotelsIndex"],body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
     min-height: 300px !important;
