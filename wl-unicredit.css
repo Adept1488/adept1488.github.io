@@ -5,6 +5,14 @@
     font-family: inherit;
     font-size: 16px;
     line-height: 16px;
+    outline: none;
+}
+
+.lk-head-btn {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 16px;
+    outline: none;
 }
 /**
  * Custom header styles end
