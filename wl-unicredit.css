@@ -100,6 +100,10 @@
 /**
  * Custom profile styles begin
  */
+.profile-container form.basic-info__contacts-form input#phone {
+    pointer-events: none;
+}
+
 .profile-container .bonus-balance-amount {
     color: #1a94ce;
     font-size: 20px;
