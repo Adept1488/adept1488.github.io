@@ -123,6 +123,21 @@
     font-size: 18px;
     content: '\043C\0438\043B\044C';
 }
+
+.profile-container .bonuses h3:last-of-type,
+.profile-container .bonuses p:last-child {
+    font-size: 0;
+}
+
+.profile-container .bonuses h3:last-of-type::before {
+    font-size: 24px;
+    content: '\041A\043E\0433\0434\0430 \043D\0430\0447\0438\0441\043B\044F\044E\0442\0441\044F  \041C\0438\043B\0438?';
+}
+
+.profile-container .bonuses p:last-child::before {
+    font-size: 14px;
+    content: '\041C\0438\043B\0438  \043D\0430\0447\0438\0441\043B\044F\044E\0442\0441\044F  \0432  \043F\0435\0440\0432\044B\0435  15 \0440\0430\0431\043E\0447\0438\0445  \0434\043D\0435\0439  \0441\043B\0435\0434\0443\044E\0449\0435\0433\043E  \043C\0435\0441\044F\0446\0430';
+}
 /**
  * Custom profile styles end
  */
