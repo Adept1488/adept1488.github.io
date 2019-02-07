@@ -76,6 +76,14 @@
 /**
  * Custom nav styles begin
  */
+.nav-bar .mobile-menu {
+    border-bottom: 2px solid #e9e9e9;
+}
+
+.nav-bar .mobile-menu .tablet-active-section {
+    border-bottom: none;
+}
+
 .nav-bar .mobile-menu li.active {
     background-color: #004974;
     background-image: none;
@@ -95,6 +103,8 @@
     text-transform: uppercase;
     content: '\0411\0430\043B\0430\043D\0441';
 }
+
+/*.nav-bar .nav-bar-table td a.bonuses-link:active*/
 
 .nav-bar .mobile-menu .bonuses-selected::before {
     display: inline-block;
