@@ -100,6 +100,11 @@
 /**
  * Custom profile styles begin
  */
+.profile-container .bonus-balance-amount {
+    color: #1a94ce;
+    font-size: 20px;
+}
+
 .profile-container .bonuses .bonus-balance-prefix,
 .profile-container .bonuses .bonus-balance-postfix {
     display: none;
@@ -107,11 +112,15 @@
 
 .profile-container .bonuses .bonus-balance-amount::before {
     display: inline-block;
+    color: #363751;
+    font-size: 18px;
     content: '\0411\0430\043B\0430\043D\0441: ';
 }
 
 .profile-container .bonuses .bonus-balance-amount::after {
     display: inline-block;
+    color: #363751;
+    font-size: 18px;
     content: '\043C\0438\043B\044C';
 }
 /**
