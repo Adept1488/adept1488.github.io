@@ -76,58 +76,22 @@
 /**
  * Custom nav styles begin
  */
-.nav-bar .mobile-menu {
-    border-bottom: 2px solid #e9e9e9;
-}
-
-.nav-bar .mobile-menu .tablet-active-section {
-    border-bottom: none;
-}
-
-.nav-bar .mobile-menu li.active {
-    background-color: #004974;
-    background-image: none;
-}
-
 .nav-bar .nav-bar-table td a.bonuses-link,
 .nav-bar .mobile-menu .bonuses-selected,
 .nav-bar .mobile-menu li a.bonuses-link {
-    visibility: hidden;
-    position: relative;
+    font-size: 0 !important;
 }
 
-.nav-bar .nav-bar-table td a.bonuses-link::before {
-    display: inline-block;
-    visibility: visible;
-    position: absolute;
-    text-transform: uppercase;
+.nav-bar .nav-bar-table td a.bonuses-link::before,
+.nav-bar .mobile-menu li a.bonuses-link::before,
+.nav-bar .mobile-menu .bonuses-selected::before {
     content: '\0411\0430\043B\0430\043D\0441';
+    font-size: 15px;
+    text-transform: uppercase;
 }
-
-/*.nav-bar .nav-bar-table td a.bonuses-link:active*/
 
 .nav-bar .mobile-menu .bonuses-selected::before {
-    display: inline-block;
-    visibility: visible;
-    position: absolute;
-    text-transform: uppercase;
-    content: '\0411\0430\043B\0430\043D\0441';
-}
-
-.nav-bar .mobile-menu li:not(.active) a.bonuses-link::before {
-    display: inline-block;
-    visibility: visible;
-    position: absolute;
-    text-transform: uppercase;
-    content: '\0411\0430\043B\0430\043D\0441';
-}
-
-.nav-bar .mobile-menu li.active a.bonuses-link::before {
-    display: inline-block;
-    visibility: visible;
-    position: absolute;
-    text-transform: uppercase;
-    content: '\0411\0430\043B\0430\043D\0441';
+    font-size: 18px;
 }
 /**
  * Custom nav styles end
