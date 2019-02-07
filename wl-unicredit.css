@@ -72,6 +72,69 @@
  * Custom footer styles end
  */
 
+
+/**
+ * Custom nav styles begin
+ */
+.nav-bar .nav-bar-table td a.bonuses-link,
+.nav-bar .mobile-menu li a.bonuses-link {
+    visibility: hidden;
+    position: relative;
+}
+
+.nav-bar .nav-bar-table td a.bonuses-link::before {
+    display: inline-block;
+    visibility: visible;
+    position: absolute;
+    text-transform: uppercase;
+    content: '\0411\0430\043B\0430\043D\0441';
+}
+
+.nav-bar .mobile-menu li.active {
+    background-color: #004974;
+    background-image: none;
+}
+
+.nav-bar .mobile-menu li:not(.active) a.bonuses-link::before {
+    display: inline-block;
+    visibility: visible;
+    position: absolute;
+    text-transform: uppercase;
+    content: '\0411\0430\043B\0430\043D\0441';
+}
+
+.nav-bar .mobile-menu li.active a.bonuses-link::before {
+    display: inline-block;
+    visibility: visible;
+    position: absolute;
+    text-transform: uppercase;
+    content: '\0411\0430\043B\0430\043D\0441';
+}
+/**
+ * Custom nav styles end
+ */
+
+/**
+ * Custom profile styles begin
+ */
+.profile-container .bonuses .bonus-balance-prefix,
+.profile-container .bonuses .bonus-balance-postfix {
+    display: none;
+}
+
+.profile-container .bonuses .bonus-balance-amount::before {
+    display: inline-block;
+    content: '\0411\0430\043B\0430\043D\0441: ';
+}
+
+.profile-container .bonuses .bonus-balance-amount::after {
+    display: inline-block;
+    content: '\043C\0438\043B\044C';
+}
+/**
+ * Custom profile styles end
+ */
+
 [data-wl-class~="HotelsIndex__HotelsIndex"],body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
     min-height: 300px !important;
